@@ -1,0 +1,207 @@
+ body {
+     box-sizing: border-box;
+     background-color: #F6F6F6;
+ }
+
+ .nav-pills .header-links {
+     padding: 8px 5px;
+     border-radius: 5px;
+     color: #007BFF;
+     /* background-color: white; */
+     transition: background-color 0.3s;
+ }
+
+ .nav-pills .header-links.active {
+     padding: 6.5px 10px;
+
+     color: white;
+     background-color: #007bff !important;
+ }
+
+ .nav-pills .header-links:not(.active):hover {
+     background-color: #f0f0f0;
+     color: #007BFF;
+ }
+
+ .navbar-pills-navbar {
+     margin-top: 5px;
+     padding: 4px 12px;
+     border-radius: 5px;
+     color: rgba(14, 14, 14, 0.806);
+     /* background-color: white; */
+     transition: background-color 0.3s;
+ }
+
+ .navbar-pills .navbar-pills-navbar.active {
+     padding: 6.5px 15px;
+
+     color: white;
+     background-color: #007bff !important;
+ }
+
+ .navbar-pills .navbar-pills-navbar:not(.active):hover {
+     background-color: #007BFF;
+     color: white;
+ }
+
+ .nav-item.dropdown:hover .dropdown-menu {
+     display: block;
+ }
+
+
+
+
+ .chart-container {
+     align-items: center;
+     justify-content: center;
+     margin: auto;
+     position: relative;
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     background-color: #f2f2f2;
+     overflow: hidden;
+ }
+
+ .chart-segment {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+ }
+
+ .segment-1 {
+     background-color: #3498db;
+     transform: rotate(0deg);
+ }
+
+ .segment-2 {
+     background-color: #e74c3c;
+     transform: rotate(90deg);
+ }
+
+ .segment-3 {
+     background-color: #2ecc71;
+     transform: rotate(180deg);
+ }
+
+ .segment-4 {
+     background-color: #f39c12;
+     transform: rotate(270deg);
+ }
+
+ .chart-container::before {
+     content: "";
+     position: absolute;
+     width: 60%;
+     /* Adjust the size of the central empty space */
+     height: 60%;
+     top: 20%;
+     /* Adjust the top position to center the empty space */
+     left: 50%;
+     border-radius: 50%;
+     background-color: #f2f2f2;
+ }
+
+
+
+ .box {
+     display: block;
+     border: 1px solid #ddd;
+     margin: 10px;
+     border-radius: 5px;
+     text-decoration: none;
+     color: #333;
+     transition: box-shadow 0.3s;
+ }
+
+ .box:hover {
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+
+ .box-body {
+     padding: 20px;
+ }
+
+ .box-body-color {
+     padding: 2px;
+ }
+
+ .fs-24 {
+     font-size: 24px;
+ }
+
+ .fs-30 {
+     font-size: 50px;
+ }
+
+
+
+
+
+ .stat-bar {
+     width: 15px;
+     height: 384px;
+     position: relative;
+     margin-right: 10px;
+     float: left;
+ }
+
+ .stat {
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+ }
+
+ .stat1 {
+     height: 30%;
+     background-color: #3498db;
+ }
+
+ .stat2 {
+     height: 40%;
+     background-color: #2ecc71;
+ }
+
+ .stat3 {
+     height: 75%;
+     background-color: #e74c3c;
+ }
+
+ .stat4 {
+     height: 30%;
+     background-color: #f39c12;
+ }
+
+ .stat5 {
+     height: 90%;
+     background-color: #9b59b6;
+ }
+
+ .colored-dot {
+     margin-top: 2px;
+     width: 18px;
+     height: 17px;
+     border-radius: 50%;
+     background-color: #ff0000;
+     margin-right: 5px;
+     /* Change this to the desired color using a valid CSS color value */
+ }
+
+ .colored-dot1 {
+     margin-top: 2px;
+     width: 18px;
+     height: 17px;
+     border-radius: 50%;
+     background-color: rgba(30, 138, 30, 0.729);
+     margin-right: 5px;
+ }
+
+ .colored-dot2 {
+     margin-top: 2px;
+     width: 18px;
+     height: 17px;
+     border-radius: 50%;
+     background-color: #3498db;
+     margin-right: 5px;
+ }
